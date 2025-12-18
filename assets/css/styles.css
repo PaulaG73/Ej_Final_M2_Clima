@@ -1,0 +1,85 @@
+.body {
+  margin: 0;
+  padding: 0;
+
+}
+.header {
+  padding: 20px 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: #e3dedeae;
+}
+.header__nav {
+
+  padding-top: 15px;
+
+}
+.nav__item{
+color: #e3dedeae;
+
+}
+.home {
+  padding: 30px 0px;
+  background-color: aliceblue;
+  text-align: center;
+}
+.home__titulo{
+  font-weight: bold;
+}
+.home__card{
+  padding: 10px 5px;
+}
+.card-body{
+  padding-top: 10px;
+}
+.card__temp{
+display: flex;
+justify-content: center;
+}
+.card__estado{
+display: flex;
+justify-content: center;
+
+
+}
+.pronsem {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color:rgb(239, 236, 236) ;
+  text-align: center; 
+}
+.pronsem__titulo{
+font-weight: bold;
+}
+.pronsem__card{
+  padding: 10px 10px;
+}
+.sobre {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: rgb(223, 232, 214);
+}
+.sobre__titulo{
+  text-align: center;
+  font-weight: bold;
+}
+.sobre__item{
+  padding-bottom: 20px;
+}
+.sobre__descripcion{
+  font-size: small;
+  text-align: justify;
+}
+.card-footer {
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+}
+.card__derechos{
+
+  display: flex;
+  justify-content: center;
+}

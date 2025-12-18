@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playas de América</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="header">
+            <H1 class="header__título">Guía para visitar playas soñadas de América</H1>
+            <nav class="header__nav">
+
+                <a class="nav__item" href="#Home">Home</a>
+                <a class="nav__item" href="#Pronsem">Pronóstico semanal</a>
+                <a class="nav__item" href="#Sobre">Conoce más</a>
+                <a class="nav__item" href="#Footer">Footer</a>
+
+            </nav>
+        </div>
+
+    </header>
+    <!-- Sección Principal   -->
+    <section id="Home" class="home">
+        <h2 class="home__titulo">Nuestra selección de Playas</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-12 d-flex flex-rap" id="playas_contenedor">
+
+
+                <!-- Tarjeta 1 -->
+                <div class="home__card" id="card1">
+                    <img src="./assets/img/Bahía Inglesa_Chile.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Bahía Inglesa <p>Chile</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>21°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                            <p>Parcialmente nublado</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="home__card" id="card2">
+                    <img src="./assets/img/Bahía_Tortuga_Ecuador.jpeg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Bahía Tortuga <p>Ecuador</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>28°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="home__card" id="card3">
+                    <img src="./assets/img/Bocas_del_Toro_Panamá.webp" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Bocas del Toro <p>Panamá</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>24°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="home__card" id="card4">
+                    <img src="./assets/img/Florianópolis_Brasil.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Florianóplis <p>Brasil</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>28°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 5 -->
+                <div class="home__card" id="card5">
+                    <img src="./assets/img/Los Roques_Venezuela.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Los Roques <p>Venezuela</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>26°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                            <p>Parcialmente nublado</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 6 -->
+                <div class="home__card" id="card6">
+                    <img src="./assets/img/Mar del Plata_Argentina.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Mar del Plata <p>Argentina</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>24°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                            <p>Parcialmente nublado</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 7 -->
+                <div class="home__card" id="card7">
+                    <img src="./assets/img/Máncora_Perú.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Máncora <p>Perú</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>29°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 8 -->
+                <div class="home__card" id="card8">
+                    <img src="./assets/img/Playa_Blanca_Colombia.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa Blanca <p>Colombia</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>30°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 9 -->
+                <div class="home__card" id="card9">
+                    <img src="./assets/img/Playa_Conchal_Costa_Rica.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa Conchal <p>Costa Rica</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>27°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 10 -->
+                <div class="home__card" id="card10">
+                    <img src="./assets/img/Playa_del_Carmen_México.webp" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa del Carmen<p>México</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>28°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-sun"></i>
+                            <p>Soleado</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 11 -->
+                <div class="home__card" id="card11">
+                    <img src="./assets/img/Punta_Cana_RD.jpg" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Punta Cana <p>República Dominicana</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>22°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+                <!-- Tarjeta 12 -->
+                <div class="home__card" id="card12">
+                    <img src="./assets/img/Punta_del_Este_Uruguay.webp" class="card-img-top" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Punta de Este <p>Uruguay</p>
+                        </h5>
+                        <div class="card__temp">
+                            <i class="fa-solid fa-temperature-full"></i>
+                            <p>22°C</p>
+                        </div>
+                        <div class="card__estado">
+                            <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Lluvioso</p>
+                        </div>
+
+                        <a href="#Pronsem" class="btn btn-dark">Pronóstico semanal</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Secciones complementarias -->
+    <div>
+        <section id="Pronsem" class="pronsem">
+            <h3 class="pronsem__titulo">Pronóstico semanal por destino</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-12">
+                <div class="col">
+                    <div class="pronsem__card" id="card1">
+                        <img src="./assets/img/S_B_Inglesa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Bahía Inglesa</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card2">
+                        <img src="./assets/img/S_2B_Tortuga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bahía Tortuga</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card3">
+                        <img src="./assets/img/S_B_D_Toro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bocas del Toro</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card4">
+                        <img src="./assets/img/S_Florianópolis.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Florianópolis</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card5">
+                        <img src="./assets/img/S_L_Roques.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Los Roques</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="car6">
+                        <img src="./assets/img/S_Máncora.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Máncora</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card7">
+                        <img src="./assets/img/S_M_D_Plata.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mar del Plata</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card8">
+                        <img src="./assets/img/S_P_Blanca.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Playa Blanca</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card9">
+                        <img src="./assets/img/S_P_Conchal.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Playa Conchal</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card10">
+                        <img src="./assets/img/S_P_D_Carmen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Playa del Carmen</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card11">
+                        <img src="./assets/img/S_P_Cana.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Punta Cana</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pronsem__card" id="card12">
+                        <img src="./assets/img/S_P_D_Este.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Punta del Este</h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <section id="Sobre" class="sobre">
+        <H3 class="sobre__titulo">Conoce más sobre cada playa</H3>
+        <br>
+        <ol>
+            <li class="sobre__item">
+                <H5>Bahía Inglesa, Chile</H5>
+                <p class="sobre__descripcion">Conocida por sus playas de arena blanca y aguas
+                    cristalinas de tono turquesa, Bahía Inglesa es
+                    un balneario que promete una experiencia inolvidable. Su clima cálido y agradable,
+                    te invita a
+                    relajarte y disfrutar de la naturaleza en su máxima expresión.
+
+                    Ubicada en la región de Atacama, al norte de Chile 🇨🇱, esta joya es una parte
+                    integral del
+                    desierto más árido del mundo. A pesar de su entorno desértico, Bahía Inglesa se
+                    destaca como un
+                    verdadero oasis, brindando un refugio lleno de vida y color. Es el lugar perfecto
+                    para quienes
+                    buscan disfrutar del sol, el mar y la belleza natural</p>
+                <a href="https://bahiainglesachile.com/como-llegar-a-bahia-inglesa/">Información para tu
+                    viaje</a>
+            </li>
+
+            <li class="sobre__item">
+                <h5>Bahía Tortuga, Ecuador</h5>
+                <p class="sobre__descripcion">Bahía Tortuga está situada en la isla de Santa Cruz en las
+                    Galápagos, Ecuador. Puerto Ayora está
+                    alrededor de 40 minutos a pie. Hay un pequeño camino de 2500 metros de largo y se
+                    debe iniciar y
+                    cerrar sesión en la oficina del Parque Nacional Galápagos, cuando el acceso a la
+                    Bahía Tortuga se
+                    concede a los visitantes de forma gratuita. La playa está perfectamente preservarda
+                    y con presencia
+                    de animales salvajes como iguanas, cangrejos de playa. Solo se permite nadar en el
+                    manglar que está
+                    separado de la playa.</p>
+                <a href="https://beachlifeecuador.com/tortuga-bay/">Información para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Bocas del Toro, Panamá</h5>
+                <p class="sobre__descripcion">Bocas del Toro es un paraíso tropical en Panamá, conocido
+                    por sus hermosas playas, ideales
+                    para actividades acuáticas. Uno de los imprescindibles es un tour en bote hacia el
+                    Cayo Zapatilla,
+                    un paraíso tropical con aguas cristalinas y arenas blancas. También puedes disfrutar
+                    de snorkel en
+                    la Isla de los Delfines, donde podrás observar a estos encantadores mamíferos en su
+                    hábitat natural.
+                    Los amantes de la naturaleza pueden explorar el Parque Nacional Marino Isla
+                    Bastimentos, hogar de
+                    una increíble biodiversidad. Si prefieres algo más relajante, la vida nocturna de
+                    Bocas es
+                    igualmente interesante. Con una amplia
+                    gama de bares y restaurantes, podrás disfrutar de música en vivo, cócteles
+                    tropicales y una
+                    atmósfera única. La isla también es famosa por su ambiente relajado, lo que la
+                    convierte en el
+                    destino perfecto para desconectar de la rutina diaria.
+                </p>
+                <a href="https://www.puravidatraveling.com/es/post/como-llegar-a-bocas-del-toro-panama">Información
+                    para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Florianópolis, Brasil</h5>
+                <p class="sobre__descripcion">Florianópolis, o conocida popularmente como Floripa, es la
+                    capital del Estado de Santa Catarina, en
+                    la Región Sur de Brasil. Posee una gran diversidad de paisajes compuestos por
+                    manglares, lagunas,
+                    dunas, cerros y pequeñas islas forman la costa de esta región, la cual ha sido
+                    premiada con 42
+                    impresionantes playas. La isla está dividida en dos partes: una isla costera y la
+                    pequeña península
+                    continental que forman la ciudad, y es esta geografía única la que transforma a
+                    Florianópolis en uno
+                    de los principales destinos de playa de Brasil. Parte de la ciudad es un área de
+                    preservación
+                    ambiental, con playas rodeadas de cerros cubiertos por vegetación de Mata Atlántica.
+                </p>
+                <a href="https://pasaportesindestino.net/guia-para-viajar-a-florianopolis-todo-lo-que-necesitas-saber/">Información
+                    para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Los Roques, Venezuela</h5>
+                <p class="sobre__descripcion">El archipiélago de Los Roques es una dependencia federal
+                    que agrupa un conjunto de islas y
+                    cayos en las Antillas Menores pertenecientes a Venezuela y es considerado el segundo
+                    parque marino
+                    más grande de América Latina (Parque nacional Archipiélago de Los Roques). Además el
+                    archipiélago
+                    posee el arrecife coralino más grande del sur del mar Caribe. Las actividades
+                    turísticas han sido
+                    estimuladas por sus playas de arenas blancas, navegación recreativa en diversos
+                    tipos de
+                    embarcaciones como kayak, velero, bote de remo y catamarán; windsurf, buceo o
+                    submarinismo sin
+                    tanques, pesca deportiva con caña, observación de aves y excursiones a pie. </p>
+                <a href="https://www.isouthamerica.com/how-to-get-to-los-roques-venezuela/">Información
+                    para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Máncora, Perú</h5>
+                <p class="sobre__descripcion">Máncora es un balneario y localidad del norte del Perú,
+                    capital del distrito de Máncora, en la
+                    provincia de Talara, departamento de Piura. Además de su función como caleta de
+                    pesca, Máncora se ha
+                    consolidado en las últimas décadas como un destino turístico de playa, reconocido
+                    por sus
+                    condiciones favorables para la práctica del surf y otras actividades acuáticas.</p>
+                <a href="https://mancoraperu.net/como-llegar/">Información para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Mar del Plata, Argentina</h5>
+                <p class="sobre__descripcion">Mar del Plata es una ciudad ubicada en el sudeste de la
+                    provincia de Buenos Aires, Argentina, sobre
+                    la costa del mar argentino. Es la localidad balnearia más importante del país y el
+                    segundo destino
+                    turístico después de Buenos Aires. Conocida por su extensa costa atlántica, ofrece
+                    una variedad de
+                    playas que se adaptan a todos los gustos, desde las más animadas y céntricas hasta
+                    las tranquilas y
+                    naturales. Cada playa de Mar del Plata tiene su propia personalidad, desde el
+                    bullicio de Bristol
+                    hasta la calma de Chapadmalal.</p>
+                <a
+                    href="https://regionmardelplata.com/ver-noticia.asp?noticia=turismo-hoy-una-guia-completa-sobre-como-llegar-a-mar-del-plata&codigo=22306">Información
+                    para tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Playa Blanca, Colombia</h5>
+                <p class="sobre__descripcion">Playa Blanca es una de las playas más emblemáticas de
+                    Colombia, ubicada en la isla de Barú, que forma
+                    parte del Parque Nacional Natural Corales del Rosario y de San Bernardo. Esta playa
+                    es conocida por
+                    su arena blanca y fina, así como por sus aguas cristalinas de un azul intenso, lo
+                    que la convierte
+                    en un destino turístico muy atractivo tanto para locales como para visitantes
+                    internacionales. La
+                    belleza natural de Playa Blanca, junto con su entorno tropical, ofrece un ambiente
+                    ideal para el
+                    descanso y la recreación.</p>
+                <a href="https://queveryvisitar.com/como-se-llega-a-playa-blanca/">Información para tu
+                    viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Playa Conchal, Costa Rica</h5>
+                <p class="sobre__descripcion">Playa Conchal está ubicada al norte de la provincia de
+                    Guanacaste. Es considerada por muchos como una
+                    de las playas más exóticas de Costa Rica. Es una playa blanca y brillante hecha de
+                    pequeñas conchas
+                    rotas y coral. Le da al mar una claridad rara y un color azul turquesa. Esta playa
+                    es totalmente
+                    virgen, y tan pacífica como lo era hace veinte años. Se encuentra a sólo 2 km de
+                    Playa Brasilito, y
+                    muy cerca de Flamingo y Tamarindo. Además de ser un destino ideal para los amantes
+                    del sol y la
+                    naturaleza, esta playa ofrece múltiples actividades para viajeros de todas las
+                    edades. </p>
+                <a href="https://playas.blog/costa/costa-rica-playas/playa-conchal/">Información para tu
+                    viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Playa del Carmen, México</h5>
+                <p class="sobre__descripcion">Situada en el corazón de la Riviera Maya, Playa del Carmen
+                    es una increíble mezcla de hermosas playas
+                    de fina arena, hoteles para todos los gustos, y los mejores restaurantes y bares con
+                    una
+                    incomparable vida nocturna. En Playa del Carmen, antiguamente llamada Xamán-Ha,
+                    conviven dos mundos.
+                    Por un lado, el ambiente pueblerino que se respira de una aldea dedicada a la pesca.
+                    Y, por otro, la
+                    mezcla cultural y social que generación tras generación ha dado vida a un centro de
+                    moda conformado
+                    por una arquitectura y gastronomía eclécticas.</p>
+                <a href="https://chipviajero.com/playa-del-carmen-como-llegar-mexico/">Información para
+                    tu viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Punta Cana, República Dominicana</h5>.
+                <p class="sobre__descripcion">Punta Cana es el sinónimo de descanso y relajación frente
+                    al mar. Aquí, donde el Océano Atlántico se
+                    encuentra con el Mar Caribe, desde el extremo norte en Uvero Alto al sur en Cap
+                    Cana, los resorts
+                    todo incluido y hoteles boutique ofrecen todos los mimos y el confort de la vida
+                    moderna frente al
+                    mar. Las familias podrán disfrutar de centros de entretenimiento en miniatura, así
+                    como parques de
+                    agua para niños, mientras que las parejas hallarán enclaves de ensueño para celebrar
+                    bodas, con
+                    ofertas recluidas en la playa para una estancia aún más romántica. Pero no solo
+                    encontrarás
+                    diversión bajo el sol, con fina arena blanca y un mar cristalino e iridiscente para
+                    nadar, pescar, o
+                    darte un chapuzón entre vida marina y barcos hundidos. Punta Cana, también es el
+                    paraíso para los
+                    golfistas, con 10 campos de golf ubicados a lo largo de la costa, un escape de playa
+                    con lujosas
+                    marinas y cenas gourmet, y una zona de bienestar con los mejores spas del país.</p>
+                <a href="https://viajarviviendo.com/como-llegar-a-punta-cana/">Información para tu
+                    viaje</a>
+            </li>
+            <li class="sobre__item">
+                <h5>Punta del Este, Uruguay</h5>
+                <p class="sobre__descripcion">Punta del Este es una ciudad peninsular, situada en el
+                    extremo meridional de Uruguay. Es uno de los
+                    balnearios más exclusivos de América Latina. Sus playas más
+                    conocidas son Playa Mansa y Playa Brava y ambas hacen honor a sus nombres. “La
+                    Mansa”, como suele
+                    denominársele, es ideal para niños y para quienes desean tomar un placentero baño de
+                    mar. Sus aguas
+                    bañan la Bahía de Maldonado y la Isla Gorriti. “La Brava”, desde la que se divisa la
+                    Isla de Lobos,
+                    es para quienes gustan de las aguas más picadas del océano Atlántico. En invierno,
+                    sus olas son el
+                    paraíso de aquellos que practican windsurf.
+
+                    En estas playas se congregan familias enteras con sus niños, amigos que se juntan
+                    para tomar sol y
+                    bañarse y aquellos que gustan de practicar deportes acuáticos de todo tipo.
+                    Contemplar el amanecer o
+                    atardecer es un espectáculo imperdible e inolvidable.</p>
+                <a href="https://puntadeleste.org/como-llegar/">Información para tu viaje</a>
+
+            </li>
+        </ol>
+
+    </section>
+    <hr>
+
+    <footer id="Footer" class="footer">
+
+        <div class="card text-center">
+            <div class="card-footer">
+                AGENCIA DE TURISMO
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Comercialización y Servicios Vinologa SpA</h5>
+                <div class="card__derechos">
+                    <p class="card-text">Todos los derechos reservados</p>
+                    <i class="fa-regular fa-copyright"></i>
+                </div>
+
+
+
+                <span>Contáctanos</span>
+                <button type="button" class="btn btn-outline-secondary" disabled>paula@vinologa.cl</button>
+                <br>
+                <br>
+
+                <a href="#header" class="btn btn-dark">Volver al Inicio</a>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
